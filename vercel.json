@@ -1,7 +1,7 @@
 {
   "framework": "angular",
   "outputDirectory": "dist/portfolio",
-  "rewrites": [
+  "routes": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
