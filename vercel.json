@@ -1,7 +1,5 @@
 {
   "framework": "angular",
   "outputDirectory": "dist/portfolio",
-  "routes": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  "routes": [ { "src": "/(.*)", "dest": "/index.html" } ]
 }
