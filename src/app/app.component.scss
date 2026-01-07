@@ -1,4 +1,5 @@
 
+
 // Navigation
 nav {
   position: fixed;
@@ -291,6 +292,7 @@ nav {
 // About Section
 #about {
   background: var(--bg-darker);
+  overflow-x: hidden; 
 }
 
 .about-grid {
