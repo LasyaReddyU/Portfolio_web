@@ -1,3 +1,10 @@
+/* FIX: prevent mobile horizontal overflow */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 // Navigation
 nav {
   position: fixed;
@@ -908,3 +915,12 @@ footer {
     transform: translateY(-3px);
   }
 }
+/* FIX: fully disable custom cursor & prevent overflow on mobile */
+@media (max-width: 768px) {
+  .cursor,
+  .cursor-dot {
+    display: none !important;
+  }
+}
+
+
